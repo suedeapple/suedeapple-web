@@ -6,7 +6,8 @@
     {
       "source": "/brief",
       "headers": [
-        { "key": "Content-Type", "value": "text/markdown; charset=utf-8" }
+        { "key": "Content-Type", "value": "text/plain; charset=utf-8" },
+        { "key": "Content-Disposition", "value": "inline" }
       ]
     }
   ]
