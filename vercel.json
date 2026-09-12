@@ -1,7 +1,4 @@
 {
-  "rewrites": [
-    { "source": "/brief", "destination": "/brief.md" }
-  ],
   "headers": [
     {
       "source": "/brief",
