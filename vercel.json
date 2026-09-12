@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/brief",
+      "source": "/project-brief",
       "headers": [
         { "key": "Content-Type", "value": "text/plain; charset=utf-8" },
         { "key": "Content-Disposition", "value": "inline" },
