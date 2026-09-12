@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    { "source": "/brief", "destination": "/brief.md" }
+  ],
+  "headers": [
+    {
+      "source": "/brief",
+      "headers": [
+        { "key": "Content-Type", "value": "text/markdown; charset=utf-8" }
+      ]
+    }
+  ]
+}
