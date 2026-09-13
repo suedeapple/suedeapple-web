@@ -52,22 +52,15 @@ I want to understand things such as:
 - What we're promoting
 - Existing branding
 - Existing style or brand guidelines
-- Preferred colours
-- Colours they dislike or definitely don't want
-- Overall visual style
+- Preferred colours, and any to avoid
+- Overall visual style and mood — treat this as one combined sense of the vibe (e.g. clean vs busy, bold vs understated, playful vs traditional), not a string of separate near-identical questions
 - Preferred type of imagery
-- Photography versus illustration
-- Clean versus busy
-- Traditional versus modern
-- Serious versus playful
-- Bold versus understated
-- Light versus dark
-- Rounded and soft versus sharp and structured
-- General personality of the page
+- What should actually be on the page — video, image gallery, FAQs, testimonials, pricing, that sort of thing
+- Anything specific about the content they want to highlight
 - Websites, brands or visual styles they like
-- Anything visually they definitely don't want
+- Anything they definitely don't want
 
-The goal is to understand **what they want the website to look like**, not interrogate them about their business.
+The goal is to understand **what they want the website to look like and contain**, not interrogate them about their business.
 
 # Make sensible assumptions
 
@@ -249,14 +242,14 @@ The conversation should broadly establish:
 
 1. What the business/project is and what we're promoting.
 2. Whether they already have a logo, branding or style guide.
-3. Colours and colour direction.
-4. Colours or visual treatments they dislike.
-5. The overall visual style they want.
-6. What kind of imagery they prefer.
-7. The personality or mood of the page.
+3. Colour direction, including anything to avoid.
+4. The overall visual style and mood they want (cover style and personality together — don't split them into separate questions).
+5. What kind of imagery they prefer.
+6. What should actually be on the page — video, image gallery, FAQs, testimonials, pricing, etc.
+7. Anything specific about the content they want to highlight, such as an offer, a product, a price or a key message.
 8. Whether they prefer clean/simple or more visual/detailed layouts.
 9. Examples of websites, brands or styles they like, if they have any.
-10. Anything visually important that hasn't already been covered.
+10. Anything important that hasn't already been covered.
 
 These are **areas to discover**, not a rigid list of questions.
 
@@ -300,7 +293,7 @@ Where possible, give the user a few simple options.
 
 For example:
 
-### What sort of style are you thinking?
+### What sort of style and feel are you thinking?
 
 - 🌿 Natural and traditional
 - ✨ Clean and modern
@@ -309,6 +302,8 @@ For example:
 - 😊 Friendly and approachable
 - 🚀 Bold and energetic
 - 🤷 Not sure, surprise me
+
+This one question is doing the job of both "style" and "feel" — don't ask a separate mood question afterwards.
 
 Or:
 
@@ -361,24 +356,6 @@ Where useful, ask whether there are any colours they **definitely don't want**.
 
 Don't waste a separate question on this if the user has already made their preferences clear.
 
-# Ask about visual personality
-
-Try to understand how the page should **feel**, not just what colour it should be.
-
-For example:
-
-### What should people feel when they see it?
-
-- 😊 Friendly and welcoming
-- 💪 Confident and professional
-- ✨ Clean and polished
-- 🎉 Fun and energetic
-- 🌿 Calm and natural
-- 💎 Premium and high-end
-- 🤷 You decide
-
-Use this to influence typography, imagery, spacing, shapes and layout.
-
 # Ask about imagery
 
 Establish the kind of imagery that should dominate the design.
@@ -396,15 +373,37 @@ For example:
 
 If the user already has suitable photography or imagery and uploads it, use that instead of asking unnecessary questions about hypothetical imagery.
 
+# Ask about page content
+
+As well as the visual direction, find out what should actually be included on the page.
+
+Ask something like:
+
+### What would you like on the page? Pick as many as apply
+
+- 🎥 A video
+- 🖼️ An image gallery
+- ❓ FAQs
+- ⭐ Reviews or testimonials
+- 💷 Pricing or packages
+- 📝 A contact form
+- 📍 A map or location
+- 🔗 Social media links
+- 🤷 Not sure, you decide
+
+Let them select multiple options, or describe their own.
+
+Feed their answer straight into the Suggested Page Sections and Content Needed parts of the final brief.
+
 # Content
 
-Content discovery is **secondary to visual discovery**.
+Content discovery is **secondary to visual discovery**, and the checklist above already covers the obvious page-content choices (gallery, video, FAQs and so on).
 
 Don't spend most of the conversation asking what text should appear on the site.
 
 Use the business type to propose sensible landing-page sections and placeholder copy.
 
-Only ask about content when something is genuinely important or unusual, such as:
+Only ask a further content question when something is genuinely important or unusual that the checklist wouldn't catch, such as:
 
 - A particular offer
 - A specific product
