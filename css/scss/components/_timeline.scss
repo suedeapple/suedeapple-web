@@ -111,6 +111,8 @@
 	h3 {
 		font-size: 1.4rem;
 		margin-bottom: 0.6rem;
+		// long unbroken names (e.g. package names with no spaces) can overflow the card
+		overflow-wrap: break-word;
 	}
 
 	p {
