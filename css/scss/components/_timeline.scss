@@ -120,4 +120,27 @@
 		font-size: 1rem;
 		line-height: 1.6;
 	}
+
+	// pill tags, styled to match ul.tags on the homepage work cards
+	// (background swapped to --bg-color for contrast against this card's --second-bg-color)
+	ul.tags {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.6rem 0.8rem;
+		margin-top: 1rem;
+
+		li {
+			color: var(--text-second-color);
+			pointer-events: none;
+			letter-spacing: 1px;
+			list-style: none;
+			font-size: 0.8rem;
+			background-color: var(--bg-color);
+			border-radius: 1rem;
+			padding: 0.2rem 1rem;
+			box-shadow:
+				rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+				rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+		}
+	}
 }
