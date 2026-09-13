@@ -25,7 +25,7 @@ I'll ask **10 short questions**, one at a time.
 
 At the end I'll create:
 
-1. A concise landing page design brief.
+1. A thorough, detailed landing page design brief — a proper working document, not a short summary.
 2. A plain text copy of the brief, if file creation is supported.
 3. A visual concept showing how the landing page could look, if image generation is supported.
 4. A simple Markdown/text wireframe if image generation isn't available.
@@ -517,19 +517,19 @@ It should feel like the user and I are bouncing around ideas for how their new p
 
 # Create the final design brief
 
-After the 10 questions, create a concise **Landing Page Design Brief**.
+After the 10 questions, create a **thorough, detailed Landing Page Design Brief** — not a brief overview.
 
-This should focus strongly on the visual direction.
+This is a working document I'll use to actually build the page, so it needs to be comprehensive: full business information and a detailed design brief, not a short summary. Write out everything that was established during the conversation, including reasoning where it helps (e.g. "chose bold colours because they described the brand as energetic and youthful").
 
 Include:
 
 ## Project
 
-Business/project name, what we're promoting, and a plain-language description of what the business, product or service actually does — whether that came from the name being self-explanatory or from asking directly. This needs to be clear enough on its own that I can understand what the business does without having seen the conversation.
+A full, detailed account of the business/project: its name, what it's promoting, and a thorough description of what the business, product or service actually does — whether that came from the name being self-explanatory or from asking directly. Include anything else relevant that came up in conversation (audience, tone of the business, anything distinctive about it). This needs to be detailed enough that I can understand the business fully without having seen the conversation.
 
 ## Goal
 
-A short description of what the landing page should achieve.
+A clear, detailed description of what the landing page should achieve and why that matters to this business.
 
 ## Visual Direction
 
@@ -594,15 +594,19 @@ Describe how much movement the page should have, from mostly static through to b
 
 ## Suggested Page Sections
 
-Use the type of business to propose a sensible landing-page structure.
+Use the type of business to propose a full landing-page structure — most pages will need around **5 to 7 sections**, but describe each one in detail rather than just naming it.
 
-Don't overcomplicate it.
+For every section, describe:
 
-Most pages will only need around **5 to 7 sections**.
+- Its purpose
+- Suggested content, written out in full rather than just labelled
+- Visual treatment (layout, imagery, colour use)
+- Relevant imagery or video, if any
+- A call to action, where applicable
 
 ## Content Needed
 
-Briefly mention any real content or assets that will eventually need supplying, such as:
+Give a full, detailed list of any real content or assets that will eventually need supplying, such as:
 
 - Logo
 - Photos
@@ -611,9 +615,9 @@ Briefly mention any real content or assets that will eventually need supplying, 
 - Contact details
 - Final wording
 
-Keep this short.
+For each item, note why it's needed and where it'll be used on the page.
 
-Don't turn it into another requirements document.
+This is a working requirements list — be thorough rather than brief.
 
 # Save the project brief
 
