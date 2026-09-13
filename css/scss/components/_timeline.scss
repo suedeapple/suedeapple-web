@@ -1,0 +1,121 @@
+.timeline-page {
+	text-align: center;
+
+	.timeline-heading {
+		margin-bottom: 4rem;
+
+		h1 {
+			font-size: var(--h2-font);
+			font-weight: 700;
+		}
+
+		.caption {
+			color: var(--text-second-color);
+			font-size: var(--p-font);
+			margin-top: 0.5rem;
+		}
+	}
+
+	.btn {
+		margin-top: 3rem;
+	}
+}
+
+.timeline {
+	position: relative;
+	max-width: 1000px;
+	margin: 0 auto;
+	text-align: left;
+
+	// vertical line down the middle
+	&::after {
+		content: "";
+		position: absolute;
+		width: 4px;
+		background-color: var(--main-color);
+		top: 0;
+		bottom: 0;
+		left: 50%;
+		margin-left: -2px;
+
+		@include below($breakpoint-tablet) {
+			left: 20px;
+		}
+	}
+}
+
+.timeline-item {
+	position: relative;
+	width: 50%;
+	padding: 0 40px 3rem;
+
+	// dot marker on the line
+	&::after {
+		content: "";
+		position: absolute;
+		width: 18px;
+		height: 18px;
+		right: -9px;
+		top: 8px;
+		background-color: var(--bg-color);
+		border: 4px solid var(--main-color);
+		border-radius: 50%;
+		z-index: 1;
+	}
+
+	// left-hand items
+	&:nth-child(odd) {
+		left: 0;
+	}
+
+	// right-hand items
+	&:nth-child(even) {
+		left: 50%;
+
+		&::after {
+			left: -9px;
+		}
+	}
+
+	@include below($breakpoint-tablet) {
+		width: 100%;
+		padding-left: 55px;
+		padding-right: 15px;
+
+		&:nth-child(odd),
+		&:nth-child(even) {
+			left: 0;
+		}
+
+		&::after,
+		&:nth-child(even)::after {
+			left: 11px;
+		}
+	}
+}
+
+.timeline-content {
+	background-color: var(--second-bg-color);
+	padding: 1.5rem 2rem;
+	border-radius: 1rem;
+	position: relative;
+
+	.timeline-date {
+		display: inline-block;
+		color: var(--main-color);
+		font-weight: 700;
+		font-size: 1.1rem;
+		margin-bottom: 0.5rem;
+	}
+
+	h3 {
+		font-size: 1.4rem;
+		margin-bottom: 0.6rem;
+	}
+
+	p {
+		color: var(--text-second-color);
+		font-size: 1rem;
+		line-height: 1.6;
+	}
+}

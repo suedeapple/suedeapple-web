@@ -14,6 +14,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         thanks: resolve(__dirname, 'thanks/index.html'),
+        timeline: resolve(__dirname, 'timeline/index.html'),
       },
     },
   },
