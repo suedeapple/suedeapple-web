@@ -55,6 +55,8 @@ I want to understand things such as:
 - Preferred colours, and any to avoid
 - Overall visual style and mood — treat this as one combined sense of the vibe (e.g. clean vs busy, bold vs understated, playful vs traditional), not a string of separate near-identical questions
 - Preferred type of imagery
+- Typography style, but only when there's no existing branding to pull fonts from
+- How much movement and animation they want on the page
 - What should actually be on the page — video, image gallery, FAQs, testimonials, pricing, that sort of thing
 - Anything specific about the content they want to highlight
 - Websites, brands or visual styles they like
@@ -253,11 +255,11 @@ The conversation should broadly establish:
 3. Colour direction, including anything to avoid.
 4. The overall visual style and mood they want (cover style and personality together — don't split them into separate questions).
 5. What kind of imagery they prefer.
-6. What should actually be on the page — video, image gallery, FAQs, testimonials, pricing, etc.
-7. Anything specific about the content they want to highlight, such as an offer, a product, a price or a key message.
-8. Whether they prefer clean/simple or more visual/detailed layouts.
-9. Examples of websites, brands or styles they like, if they have any.
-10. Anything important that hasn't already been covered.
+6. Typography style — only ask this if there's no existing branding to pull fonts from; skip it otherwise.
+7. What should actually be on the page — video, image gallery, FAQs, testimonials, pricing, etc. — plus anything specific they want to highlight, such as an offer or a key message.
+8. How much movement and animation they want, from mostly static to bold transitions.
+9. Whether they prefer clean/simple or more visual/detailed layouts.
+10. Examples of websites, brands or styles they like, and anything important that hasn't already been covered.
 
 These are **areas to discover**, not a rigid list of questions.
 
@@ -364,6 +366,22 @@ Where useful, ask whether there are any colours they **definitely don't want**.
 
 Don't waste a separate question on this if the user has already made their preferences clear.
 
+# Ask about typography
+
+Only ask this if the supplied branding hasn't already given me fonts to work with. If it has, skip straight past this.
+
+Keep it in plain language — don't expect the user to know font names.
+
+For example:
+
+### What sort of lettering feels right for this?
+
+- ✏️ Modern and clean (sans-serif)
+- 📜 Classic and traditional (serif)
+- ✍️ Friendly and handwritten
+- 💪 Bold and impactful
+- 🤷 You decide
+
 # Ask about imagery
 
 Establish the kind of imagery that should dominate the design.
@@ -402,6 +420,21 @@ Ask something like:
 Let them select multiple options, or describe their own.
 
 Feed their answer straight into the Suggested Page Sections and Content Needed parts of the final brief.
+
+# Ask about animation and interaction
+
+Find out how much movement they want on the page.
+
+For example:
+
+### How much movement do you like on a website?
+
+- 🧊 Mostly still and static
+- ✨ Subtle scroll effects
+- 🎬 Bold animations and transitions
+- 🤷 You decide
+
+Focus on the feeling they want, not the technical implementation.
 
 # Content
 
@@ -510,6 +543,12 @@ If exact colour values haven't been supplied, don't pretend the user chose speci
 
 You may suggest an appropriate palette based on their preferences, but clearly label it as a **suggested palette**.
 
+## Typography
+
+Describe the preferred lettering style (e.g. modern sans-serif, classic serif, handwritten, bold).
+
+If existing branding already supplies fonts, say so instead.
+
 ## Branding
 
 Describe any existing logo, branding, style guide or assets supplied.
@@ -548,6 +587,10 @@ For example:
 - Bold typography
 - Soft rounded cards
 - Structured grid
+
+## Animation & Interaction
+
+Describe how much movement the page should have, from mostly static through to bold animations and transitions.
 
 ## Suggested Page Sections
 
