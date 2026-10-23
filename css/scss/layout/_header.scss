@@ -15,6 +15,10 @@ header {
 
 	&.journey-header {
 		justify-content: center;
+
+		@include below($breakpoint-nav) {
+			justify-content: flex-start;
+		}
 	}
 
 	@include below($breakpoint-desktop) {
