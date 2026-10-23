@@ -92,20 +92,24 @@ if (document.querySelector('.typing')) {
 	})
 }
 
-gsap
-	.timeline({
-		scrollTrigger: {
-			trigger: '#about',
-			start: 'top +=200px',
-		},
-	})
-	.from('.about-card', { x: -200, opacity: 0, duration: 1.5 })
+if (document.querySelector('#about')) {
+	gsap
+		.timeline({
+			scrollTrigger: {
+				trigger: '#about',
+				start: 'top +=200px',
+			},
+		})
+		.from('.about-card', { x: -200, opacity: 0, duration: 1.5 })
+}
 
-gsap
-	.timeline({
-		scrollTrigger: {
-			trigger: '#contact',
-			start: 'top +=200px',
-		},
-	})
-	.from('.contact-form', { x: -200, opacity: 0, duration: 1.5 })
+if (document.querySelector('#contact')) {
+	gsap
+		.timeline({
+			scrollTrigger: {
+				trigger: '#contact',
+				start: 'top +=200px',
+			},
+		})
+		.from('.contact-form', { x: -200, opacity: 0, duration: 1.5 })
+}
