@@ -103,21 +103,23 @@ if (document.querySelector('#about')) {
 		.from('.about-card', { x: -200, opacity: 0, duration: 1.5 })
 }
 
+const REVEAL_VIEWPORT_RATIO = 0.95
+
 function revealOnScroll(selector) {
 	gsap.utils.toArray(selector).forEach((item) => {
 		// Skip items already on screen at load — only animate ones the
 		// user actually has to scroll to reveal.
-		if (item.getBoundingClientRect().top < window.innerHeight * 0.85) {
+		if (item.getBoundingClientRect().top < window.innerHeight * REVEAL_VIEWPORT_RATIO) {
 			return
 		}
 
 		gsap.from(item, {
 			opacity: 0,
 			y: 50,
-			duration: 1,
+			duration: 0.6,
 			scrollTrigger: {
 				trigger: item,
-				start: 'top 85%',
+				start: `top ${REVEAL_VIEWPORT_RATIO * 100}%`,
 			},
 		})
 	})
