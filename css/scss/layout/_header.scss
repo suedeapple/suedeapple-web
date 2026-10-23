@@ -17,7 +17,7 @@ header {
 		justify-content: center;
 
 		@include below($breakpoint-nav) {
-			justify-content: flex-start;
+			justify-content: space-between;
 		}
 	}
 
@@ -143,6 +143,18 @@ header {
 }
 
 .hamburger-btn {
+	color: var(--text-color);
+	font-size: 1.6rem;
+	cursor: pointer;
+	z-index: 10001;
+	display: none;
+
+	@include below($breakpoint-nav) {
+		display: initial;
+	}
+}
+
+.journey-back {
 	color: var(--text-color);
 	font-size: 1.6rem;
 	cursor: pointer;
