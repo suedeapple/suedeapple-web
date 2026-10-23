@@ -75,7 +75,7 @@
 					<li><a href="#work" class="toggler">Work</a></li>
 					<li><a href="#clients" class="toggler">Clients</a></li>
 					<li><a href="#skills" class="toggler">Skills</a></li>
-					<li><a href="#fun" class="toggler">Fun</a></li>
+					<li><a href="#packages" class="toggler">Packages</a></li>
 					<li><a href="/journey/" class="toggler">Journey</a></li>
 					<li class="navbar-contact">
 						<a href="#contact" class="toggler">Contact</a>
@@ -841,47 +841,244 @@
 				</div>
 			</section>
 
-			<section class="fun" id="fun">
-				<div class="center rte">
-					<h2>Fun Stuff</h2>
+			<section class="packages" id="packages">
+				<div class="center">
+					<h2>Packages</h2>
 					<div class="rte">
 						<p>
-							When I'm not coding, I like to have fun with GSAP and CodePen.
-							Here's a little something I made earlier.
+							Umbraco packages I've built, and open source packages I've had
+							pull requests merged on &mdash; all available on the Umbraco
+							Marketplace and NuGet.
 						</p>
 					</div>
-					<p
-						class="codepen"
-						data-height="500"
-						data-pen-title="Bar 100 | GSAP"
-						data-preview="true"
-						data-default-tab="result"
-						data-slug-hash="OPXWZJN"
-						data-user="suedeapple"
-						style="
-							height: 500px;
-							box-sizing: border-box;
-							display: flex;
-							align-items: center;
-							justify-content: center;
-							border: 2px solid;
-							margin: 1em 0;
-							padding: 1em;
-						"
-					>
-						<span
-							>See the Pen
-							<a href="https://codepen.io/suedeapple/pen/OPXWZJN">
-								Bar 100 | GSAP</a
-							>
-							by Paul (<a href="https://codepen.io/suedeapple">@suedeapple</a>)
-							on <a href="https://codepen.io">CodePen</a>.</span
-						>
-					</p>
-					<script
-						async
-						src="https://public.codepenassets.com/embed/index.js"
-					></script>
+				</div>
+
+				<div class="package-content">
+					<div class="package-card">
+						<span class="package-badge">Built</span>
+						<i class="fa-brands fa-umbraco"></i>
+						<h3>SA.Automate.Pushover</h3>
+						<p>
+							Pushover connection type and action for Umbraco Automate &mdash;
+							send push notifications from an automation workflow.
+						</p>
+						<a
+							href="https://www.nuget.org/packages/SA.Automate.Pushover"
+							target="_blank"
+							class="package-link"
+							>View Package <i class="fa-solid fa-arrow-up-right-from-square"></i
+						></a>
+					</div>
+
+					<div class="package-card">
+						<span class="package-badge">Built</span>
+						<i class="fa-brands fa-umbraco"></i>
+						<h3>SA.Automate.Brickset</h3>
+						<p>
+							Brickset connection type and actions for Umbraco Automate &mdash;
+							look up and search LEGO sets in a workflow.
+						</p>
+						<a
+							href="https://www.nuget.org/packages/SA.Automate.Brickset"
+							target="_blank"
+							class="package-link"
+							>View Package <i class="fa-solid fa-arrow-up-right-from-square"></i
+						></a>
+					</div>
+
+					<div class="package-card">
+						<span class="package-badge">Built</span>
+						<i class="fa-brands fa-umbraco"></i>
+						<h3>SA.Automate.Clockify</h3>
+						<p>
+							Clockify connection type and actions for Umbraco Automate
+							&mdash; start/stop timers and log time entries from a workflow.
+						</p>
+						<a
+							href="https://www.nuget.org/packages/SA.Automate.Clockify"
+							target="_blank"
+							class="package-link"
+							>View Package <i class="fa-solid fa-arrow-up-right-from-square"></i
+						></a>
+					</div>
+
+					<div class="package-card">
+						<span class="package-badge">Built</span>
+						<i class="fa-brands fa-umbraco"></i>
+						<h3>SA.Automate.QRcode</h3>
+						<p>
+							QR code generation actions for Umbraco Automate &mdash; output
+							SVG or PNG, save as Media, or display on a page.
+						</p>
+						<a
+							href="https://www.nuget.org/packages/SA.Automate.QRcode"
+							target="_blank"
+							class="package-link"
+							>View Package <i class="fa-solid fa-arrow-up-right-from-square"></i
+						></a>
+					</div>
+
+					<div class="package-card">
+						<span class="package-badge">Built</span>
+						<i class="fa-brands fa-umbraco"></i>
+						<h3>SA.Automate.WeatherApi</h3>
+						<p>
+							WeatherAPI.com connection type and actions for Umbraco Automate
+							&mdash; pull live weather and forecasts into a workflow.
+						</p>
+						<a
+							href="https://www.nuget.org/packages/SA.Automate.WeatherApi"
+							target="_blank"
+							class="package-link"
+							>View Package <i class="fa-solid fa-arrow-up-right-from-square"></i
+						></a>
+					</div>
+
+					<div class="package-card">
+						<span class="package-badge">Built</span>
+						<i class="fa-brands fa-umbraco"></i>
+						<h3>SA.Automate.Ntfy</h3>
+						<p>
+							ntfy connection type and actions for Umbraco Automate &mdash;
+							send push notifications via the public or a self-hosted server.
+						</p>
+						<a
+							href="https://www.nuget.org/packages/SA.Automate.Ntfy"
+							target="_blank"
+							class="package-link"
+							>View Package <i class="fa-solid fa-arrow-up-right-from-square"></i
+						></a>
+					</div>
+
+					<div class="package-card">
+						<span class="package-badge contributed">Contributed</span>
+						<i class="fa-brands fa-umbraco"></i>
+						<h3>UmbraDesktop</h3>
+						<p>
+							A desktop-style interface for the Umbraco backoffice &mdash;
+							windowed apps, a taskbar and a launcher. Five pull requests
+							merged.
+						</p>
+						<a
+							href="https://www.nuget.org/packages/Umbraco.Community.UmbraDesktop"
+							target="_blank"
+							class="package-link"
+							>View Package <i class="fa-solid fa-arrow-up-right-from-square"></i
+						></a>
+					</div>
+
+					<div class="package-card">
+						<span class="package-badge contributed">Contributed</span>
+						<i class="fa-brands fa-umbraco"></i>
+						<h3>Umbuntu.Automate.ManualTriggerInput</h3>
+						<p>
+							A Manual Trigger (with Input) add-on for Umbraco Automate, for
+							kicking off an automation by hand. Four pull requests merged.
+						</p>
+						<a
+							href="https://www.nuget.org/packages/Umbuntu.Automate.ManualTriggerInput"
+							target="_blank"
+							class="package-link"
+							>View Package <i class="fa-solid fa-arrow-up-right-from-square"></i
+						></a>
+					</div>
+
+					<div class="package-card">
+						<span class="package-badge contributed">Contributed</span>
+						<i class="fa-brands fa-umbraco"></i>
+						<h3>AF.Umbraco.S3.Media.Storage</h3>
+						<p>
+							An AWS S3-backed media storage provider for Umbraco. Added
+							Umbraco 18 support.
+						</p>
+						<a
+							href="https://www.nuget.org/packages/AF.Umbraco.S3.Media.Storage"
+							target="_blank"
+							class="package-link"
+							>View Package <i class="fa-solid fa-arrow-up-right-from-square"></i
+						></a>
+					</div>
+
+					<div class="package-card">
+						<span class="package-badge contributed">Contributed</span>
+						<i class="fa-brands fa-umbraco"></i>
+						<h3>OC.Automate.LinkedIn</h3>
+						<p>
+							LinkedIn connector for Umbraco Automate &mdash; post content to
+							LinkedIn from a workflow. UI enhancements merged.
+						</p>
+						<a
+							href="https://www.nuget.org/packages/OC.Automate.LinkedIn"
+							target="_blank"
+							class="package-link"
+							>View Package <i class="fa-solid fa-arrow-up-right-from-square"></i
+						></a>
+					</div>
+
+					<div class="package-card">
+						<span class="package-badge contributed">Contributed</span>
+						<i class="fa-brands fa-umbraco"></i>
+						<h3>OC.Automate.Bluesky</h3>
+						<p>
+							Bluesky connector for Umbraco Automate &mdash; publish posts to
+							Bluesky from a workflow. UI and Umbraco 18 updates merged.
+						</p>
+						<a
+							href="https://www.nuget.org/packages/OC.Automate.Bluesky"
+							target="_blank"
+							class="package-link"
+							>View Package <i class="fa-solid fa-arrow-up-right-from-square"></i
+						></a>
+					</div>
+
+					<div class="package-card">
+						<span class="package-badge contributed">Contributed</span>
+						<i class="fa-brands fa-umbraco"></i>
+						<h3>Clean Starter Kit</h3>
+						<p>
+							Paul Seal's Clean Starter Kit for Umbraco, plus Phil
+							Whittaker's headless Next.js implementation &mdash; fixes and a
+							v18 upgrade merged across both.
+						</p>
+						<a
+							href="https://www.nuget.org/packages/Clean"
+							target="_blank"
+							class="package-link"
+							>View Package <i class="fa-solid fa-arrow-up-right-from-square"></i
+						></a>
+					</div>
+
+					<div class="package-card">
+						<span class="package-badge contributed">Contributed</span>
+						<i class="fa-brands fa-umbraco"></i>
+						<h3>Diplo.GodMode</h3>
+						<p>
+							A developer-tools tree for the Umbraco backoffice &mdash; added
+							server time zone diagnostics and a Scheduled Publishing view.
+						</p>
+						<a
+							href="https://www.nuget.org/packages/Diplo.GodMode"
+							target="_blank"
+							class="package-link"
+							>View Package <i class="fa-solid fa-arrow-up-right-from-square"></i
+						></a>
+					</div>
+
+					<div class="package-card">
+						<span class="package-badge contributed">Contributed</span>
+						<i class="fa-brands fa-umbraco"></i>
+						<h3>Our.Umbraco.ConditionalDisplayers</h3>
+						<p>
+							Property editors that show or hide other fields on a Document
+							Type. Fixed an auto-height textarea bug.
+						</p>
+						<a
+							href="https://www.nuget.org/packages/Our.Umbraco.ConditionalDisplayers"
+							target="_blank"
+							class="package-link"
+							>View Package <i class="fa-solid fa-arrow-up-right-from-square"></i
+						></a>
+					</div>
 				</div>
 			</section>
 			<!-- Contact   -->
