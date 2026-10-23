@@ -105,6 +105,12 @@ if (document.querySelector('#about')) {
 
 if (document.querySelector('.timeline-item')) {
 	gsap.utils.toArray('.timeline-item').forEach((item) => {
+		// Skip items already on screen at load — only animate ones the
+		// user actually has to scroll to reveal.
+		if (item.getBoundingClientRect().top < window.innerHeight * 0.85) {
+			return
+		}
+
 		gsap.from(item, {
 			opacity: 0,
 			y: 50,
