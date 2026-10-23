@@ -55,6 +55,10 @@ header {
 		margin-right: 1rem;
 	}
 
+	.navbar-contact {
+		display: none;
+	}
+
 	a {
 		color: var(--text-color);
 		font-weight: 500;
@@ -83,6 +87,10 @@ header {
 		li {
 			display: block;
 			text-align: center;
+		}
+
+		.navbar-contact {
+			display: block;
 		}
 
 		a {
@@ -118,6 +126,10 @@ header {
 
 	&:hover {
 		transform: translateY(-5px);
+	}
+
+	@include below($breakpoint-mobile) {
+		display: none;
 	}
 }
 
