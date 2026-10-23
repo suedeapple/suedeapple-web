@@ -103,8 +103,8 @@ if (document.querySelector('#about')) {
 		.from('.about-card', { x: -200, opacity: 0, duration: 1.5 })
 }
 
-if (document.querySelector('.timeline-item')) {
-	gsap.utils.toArray('.timeline-item').forEach((item) => {
+function revealOnScroll(selector) {
+	gsap.utils.toArray(selector).forEach((item) => {
 		// Skip items already on screen at load — only animate ones the
 		// user actually has to scroll to reveal.
 		if (item.getBoundingClientRect().top < window.innerHeight * 0.85) {
@@ -122,6 +122,17 @@ if (document.querySelector('.timeline-item')) {
 		})
 	})
 }
+
+;[
+	'.timeline-item',
+	'.service-card',
+	'.work-card',
+	'.package-card',
+].forEach((selector) => {
+	if (document.querySelector(selector)) {
+		revealOnScroll(selector)
+	}
+})
 
 if (document.querySelector('#contact')) {
 	gsap
