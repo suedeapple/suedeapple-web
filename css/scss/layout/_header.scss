@@ -119,10 +119,6 @@ header {
 	&:hover {
 		transform: translateY(-5px);
 	}
-
-	@include below($breakpoint-mobile) {
-		display: none;
-	}
 }
 
 .hamburger-btn {
