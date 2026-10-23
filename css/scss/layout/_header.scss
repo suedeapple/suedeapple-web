@@ -80,7 +80,7 @@ header {
 		width: 100%;
 	}
 
-	@include below($breakpoint-mobile) {
+	@include below($breakpoint-nav) {
 		flex-direction: column;
 		margin-top: -3rem;
 
@@ -128,7 +128,7 @@ header {
 		transform: translateY(-5px);
 	}
 
-	@include below($breakpoint-mobile) {
+	@include below($breakpoint-nav) {
 		display: none;
 	}
 }
@@ -140,13 +140,13 @@ header {
 	z-index: 10001;
 	display: none;
 
-	@include below($breakpoint-mobile) {
+	@include below($breakpoint-nav) {
 		display: initial;
 	}
 }
 
 nav {
-	@include below($breakpoint-mobile) {
+	@include below($breakpoint-nav) {
 		position: fixed;
 		top: 0;
 		left: -100%;
