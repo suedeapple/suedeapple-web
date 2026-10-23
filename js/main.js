@@ -103,6 +103,20 @@ if (document.querySelector('#about')) {
 		.from('.about-card', { x: -200, opacity: 0, duration: 1.5 })
 }
 
+if (document.querySelector('.timeline-item')) {
+	gsap.utils.toArray('.timeline-item').forEach((item) => {
+		gsap.from(item, {
+			opacity: 0,
+			y: 50,
+			duration: 1,
+			scrollTrigger: {
+				trigger: item,
+				start: 'top 85%',
+			},
+		})
+	})
+}
+
 if (document.querySelector('#contact')) {
 	gsap
 		.timeline({
