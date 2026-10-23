@@ -9,8 +9,13 @@ header {
 	justify-content: space-between;
 	background: transparent;
 	padding: 1rem 15%;
+	min-height: 4.5rem;
 	transition: background ease-in-out 0.3s;
 	background-color: var(--main-color);
+
+	&.journey-header {
+		justify-content: center;
+	}
 
 	@include below($breakpoint-desktop) {
 		padding-left: 3%;
